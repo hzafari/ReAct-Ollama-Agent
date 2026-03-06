@@ -1,58 +1,5 @@
 import os
 
-class FileReaderTool_dict:
-    def __init__(self, base_path="docs", name="file_reader"):
-        self.name = name
-        self.description = "Read all text files in docs folder."
-        self.base_path = os.path.abspath("docs")
-
-    def run(self, _=None):  # ignore input completely
-        contents = {}
-
-        for fname in os.listdir(self.base_path):
-            full_path = os.path.join(self.base_path, fname)
-
-            if os.path.isfile(full_path):
-                with open(full_path, "r", encoding="utf-8") as f:
-                    contents[fname] = f.read()
-
-        return contents
-    
-class FileReaderTool_old:
-    def __init__(self, base_path="docs", name="file_reader"):
-        self.name = name
-        self.description = "Read all text files in the docs folder and return their contents."
-        self.base_path = os.path.abspath("docs")
-
-    def run(self, _=None):
-        if not os.path.exists(self.base_path):
-            return f"Error: Folder '{self.base_path}' not found."
-
-        output_parts = []
-        files = os.listdir(self.base_path)
-        
-        if not files:
-            return "Observation: The docs folder is empty."
-
-        for fname in files:
-            full_path = os.path.join(self.base_path, fname)
-            if os.path.isfile(full_path) and fname.endswith(".txt"):
-                try:
-                    with open(full_path, "r", encoding="utf-8") as f:
-                        content = f.read()
-                        # Wrap each file in a very clear visual boundary
-                        output_parts.append(f"--- START OF FILE: {fname} ---\n{content}\n--- END OF FILE: {fname} ---")
-                except Exception as e:
-                    output_parts.append(f"Error reading {fname}: {e}")
-
-        # Join everything into one large text block
-
-        print(f"------------------ file ---------------\n{"\n\n".join(output_parts)}")
-        return "\n\n".join(output_parts)
-    
-
-import os
-
 class FileReaderTool:
     def __init__(self, base_path="docs", name="file_reader"):
         self.name = name
