@@ -1,0 +1,13 @@
+--- Project Alpha Status Report ---
+Date: 2024-05-20
+Project Manager: Sarah Jenkins
+Budget: $50,000
+
+Update: We have confirmed the guest list for the launch. 
+Confirmed: David, Maria, and Elena. 
+Pending: Julian and Sam. 
+Declined: Victor.
+
+Note: David requires a vegan meal. Maria is allergic to peanuts.
+Location: The Grand Hall, Room 302.
+Keycode for Room 302: 8842

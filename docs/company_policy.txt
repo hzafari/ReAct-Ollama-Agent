@@ -1,0 +1,5 @@
+--- Global Corp: Remote Work & Expense Policy ---
+1. All home-office equipment over $200 requires approval from 'Finance-Group'.
+2. Employees traveling to the 'Kingston' office can claim a $40 daily meal stipend.
+3. Software subscriptions must be billed to the 'IT-Ops' department code: 9912.
+Note: High-performance computing (HPC) requests must be submitted 2 weeks in advance to Sarah Jenkins.

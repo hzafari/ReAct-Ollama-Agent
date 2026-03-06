@@ -1,0 +1,7 @@
+WAREHOUSE B - STOCK COUNT (Last Verified: March 2026)
+- Item: Laptop-X1 | Qty: 14 | Status: Ready
+- Item: Monitor-UHD | Qty: 0 | Status: Backordered (ETA 10 days)
+- Item: Keyboard-Mech | Qty: 45 | Status: Ready
+- Item: Server-Rack-S1 | Qty: 2 | Status: Maintenance Required
+
+Special Instructions: Do not ship Monitor-UHD until backorder is cleared.

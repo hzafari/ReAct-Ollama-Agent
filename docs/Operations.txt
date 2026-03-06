@@ -1,0 +1,12 @@
+Project Alpha: Shipment Tracking
+ID: ALPHA-99
+Status: In Transit
+Carrier: Global Freight Solutions
+
+Courier Schedule:
+- Marcus: Leaves at 08:00, arrives at 10:00 (Breakfast: No restrictions)
+- Sarah: Leaves at 11:00, arrives at 13:00 (Diet: Gluten-free only)
+- Kevin: Leaves at 14:00, arrives at 16:00 (Diet: No seafood)
+
+Note: Shipment ALPHA-99 contains the launch materials. Kevin is the designated handler for this shipment. 
+Safety protocol: Room 302 keycode (8842) is required for delivery.

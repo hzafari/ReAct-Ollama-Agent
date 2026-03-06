@@ -1,0 +1,19 @@
+react-agent/
+│
+├── main.py
+├── agent.py
+├── prompt.py
+├── parser.py
+├── tools.py
+├── fileReader.py
+├── fileSearch.py
+│
+├── docs/
+│   ├── meeting_notes.txt
+│   ├── Operations.txt
+│   └── Report.txt
+│
+├── traces/
+│   └── trace_*.md
+│
+└── README.md

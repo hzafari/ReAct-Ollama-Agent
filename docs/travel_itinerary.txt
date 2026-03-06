@@ -1,0 +1,9 @@
+Flight Schedule - Sarah Jenkins
+Date: March 10, 2026
+Flight: AC104 (Toronto to Kingston)
+Departure: 07:00 AM
+Arrival: 08:15 AM
+
+Hotel: The Waterfront Inn
+Confirmation: #TRV-8821
+Note: Meeting with local team at 10:00 AM in The Grand Hall.
